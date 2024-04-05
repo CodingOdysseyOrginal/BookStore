@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+
+
+.NonFictionContainer {
+    background: linear-gradient(to bottom, #FCF6F5, #990011);
+}
+.divide {
+    background-color: #990011;
+    width: 100%;
+  }
+
+  .MemoirsLink{
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .HistoryLink{
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .TrueCrimeLink{
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .PhilsophyLink{
+    font-family: "Explora", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+  }
+ .NonFictionContainer h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 80%;
+  margin: 0 auto;
+ }

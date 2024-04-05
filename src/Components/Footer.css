@@ -1,0 +1,49 @@
+footer{
+    background-color: antiquewhite;
+    padding: 60px;
+    border-radius: 100px 100px 0 0;
+  }
+  .footerSection{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  }
+ 
+  footer a{
+    text-decoration: none;
+    color:black 
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  .iconsgroup{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+  .Icon{
+    transition: 200ms;
+  }
+  .Icon:hover{
+    transform: scale(1.2);
+  }
+  
+  .copyright{
+    text-align: center;
+  }
+
+  @media only screen and (max-width: 1000px) {
+  .footerSection{
+    display: flex;
+    flex-direction: row;
+  }
+  }
+@media only screen and (max-width: 700px) {
+  .footerSection{
+  display: flex;
+  flex-direction: column;
+}
+
+}

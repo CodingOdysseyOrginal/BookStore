@@ -1,0 +1,27 @@
+/*  
+// LIST OF THIINGS TO DO 
+//  2. ADD A REVIEW OF EACH BOOK SECTION TO REIIEW LOOK INTO YOUTUBE VIDEOS 
+//  3. @MEDIA QUERY NEED TO BE SORTED BUT MOST LIKELY LAST AS ITS AN ARSE ACHE 
+// GET A MOVE ON BITCH
+ */
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
+:root{
+  --cherry-red:#990011;
+  --off-white:#FCF6F5;
+}
+/* Card layout */
+ .grid{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align:center;
+}

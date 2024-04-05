@@ -1,0 +1,91 @@
+.GiftCardContainer{
+    background: linear-gradient(to bottom, #FCF6F5, #990011);
+}
+.GiftTitle{
+    padding-top: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+.GiftP{
+    text-align: center;
+    margin: 50px;
+    font-size: larger;
+
+}
+.GiftCardButtonGroup{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.GiftCardButtonGroup button{
+    margin: 10px 25px 20px 20px;
+    padding:10px 60px;
+    background-color: #FCF6F5;
+    color: #990011;
+    border: none;
+    box-shadow: 5px 5px black;
+    font-size: larger;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 250ms;
+  }
+  .GiftCardButtonGroup button:hover{
+    background-color: black;
+    color: #FCF6F5;
+    box-shadow: 5px 5px #CB7B83;
+  }
+
+.front{
+    background-image: url('./assets/BannerBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding:  4px 100px 100px 100px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+}
+.frontText{
+color: #FCF6F5;
+text-align: center;
+}
+.back {
+    background-image: url('./assets/BannerBackground.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border: 1px solid black;
+    padding: 4px 100px 100px 100px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px black;
+    position: relative;
+    z-index: 1;
+}
+
+.back img {
+    justify-content: center;
+    display: flex;
+    width: 100%;
+}
+.backText{
+    color: #FCF6F5;
+}
+.giftCard:hover {
+    transform: scale(1.1);
+}
+
+.giftCard {
+    transition: 2500ms;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.Container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+  
+  

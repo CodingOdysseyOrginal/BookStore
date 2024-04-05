@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&display=swap');
+
+
+.History{
+    background-image: url("./assets/HistoryBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+#History h1{
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    font-size: 3.5em;
+    color:white;
+}
+.HistoryGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}

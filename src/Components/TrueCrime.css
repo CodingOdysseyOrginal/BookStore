@@ -1,0 +1,23 @@
+
+#TrueCrime{
+        background-image: url("./assets/TrueCrimeBackground.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+}
+
+
+
+#TrueCrime h1{
+        font-family: "Wellfleet", monospace;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.TrueCrimeGrid{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align:center;
+    }

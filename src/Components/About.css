@@ -1,0 +1,30 @@
+.aboutHeader{
+    background: linear-gradient(to bottom, #FCF6F5, #990011);
+}
+.aboutContainer{
+   
+    display: flex;
+
+}
+.productimage{
+    margin-left: 10px;
+}
+.productimage img{
+    height: 550px;
+    margin: 10px;
+}
+.aboutButton button{
+    width:150px;
+    height:50px;
+    background-color: rgb(19, 19, 19);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin: 10px;
+    cursor: pointer;
+}
+.aboutButton button:hover{
+    background-color: white;
+    color: rgb(19, 19, 19);
+    border: 1px solid black;
+}

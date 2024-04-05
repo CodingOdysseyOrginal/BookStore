@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+
+#Philosophy{
+    background-image: url("./assets/PhilosophyBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.PhilososphyContainer h1{
+    font-family: "Explora", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3em;
+}
+.PhilososphyGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}

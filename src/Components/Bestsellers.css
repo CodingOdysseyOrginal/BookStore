@@ -1,0 +1,20 @@
+#Classic {
+  background-image: url("./assets/ClassicBackground.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+#Classic h1 {
+  text-align: center;
+  color: antiquewhite;
+  margin: 0 auto;
+}
+
+.BestsellersGrid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  text-align: center;
+}
