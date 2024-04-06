@@ -28,3 +28,26 @@
     color: rgb(19, 19, 19);
     border: 1px solid black;
 }
+
+@media only screen and (max-width: 800px) {
+    .productimage img{
+        width: 300px;
+        height: auto;
+    }
+    }
+        @media only screen and (max-width: 500px) {
+            .productimage img{
+                width: 200px;
+                height: auto;
+            }
+            .aboutContainer{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+            }
+            .productDetails{
+                text-align: center;
+            }
+            
+            }

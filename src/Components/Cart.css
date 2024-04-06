@@ -57,3 +57,24 @@ background-color: white;
     color: rgb(19, 19, 19);
     border: 1px solid black;
 }
+@media only screen and (max-width: 700px) {
+    .cartItem{
+    width: 520px;
+    }
+        .description{
+            font-size:1.5em ;
+        }
+}
+@media only screen and (max-width: 500px) {
+    .cartItem{
+        width: 320px;
+        .description{
+            font-size:1.5em ;
+        }
+    }
+}
+@media only screen and (max-width: 300px) {
+    .cartItem{
+        width: 600px;
+    }
+}
