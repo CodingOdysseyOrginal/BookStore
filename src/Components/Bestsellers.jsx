@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./Bestsellers.css";
 import Footer from "./Footer";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

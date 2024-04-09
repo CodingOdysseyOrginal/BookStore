@@ -25,7 +25,7 @@ export default function About() {
     }
 
     const handleContinueShopping = () => {
-        navigate("/"); 
+        navigate("/Bookstore"); 
     };
 
     const handleAddToCart = () => {

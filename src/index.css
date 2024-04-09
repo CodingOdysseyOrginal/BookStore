@@ -1,9 +1,6 @@
-/*  
-// LIST OF THIINGS TO DO 
-Last thing to do now so get on with it bitch
-//  3. @MEDIA QUERY NEED TO BE SORTED BUT MOST LIKELY LAST AS ITS AN ARSE ACHE 
-// GET A MOVE ON BITCH
- */
+/* HELPFULL TIP IS TO PRESS CTRL + F TO SEARCH FOR THE SECTION YOU NEED. ALL SECTINS ARE "(TOPIC NAME) SECTION START" */
+
+
 
 *{
   box-sizing: border-box;
@@ -25,3 +22,414 @@ body{
   justify-content: center;
   text-align:center;
 }
+/* HEADER SECTION START*/
+
+.HeaderContainer{
+  background: linear-gradient(to bottom, #CB7B83, #990011);
+}
+
+.TitleHeader{
+  display: flex;
+  justify-content: space-between;  
+}
+.TitleHeader button{
+  margin: 10px 10px 10px 10px;
+  padding:10px 60px;
+  background-color: #FCF6F5;
+  color: #990011;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+.TitleHeader button:hover{
+  background-color: black;
+  color: #FCF6F5;
+  box-shadow: 5px 5px #990011;
+}
+#LinkList{
+  list-style: none;
+}
+.Carousel{
+text-align: center;
+border-radius: 10px;
+justify-content: center;
+align-items: center;
+margin: 0 0 10px 10px;
+}
+
+.BottomButton{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+ 
+}
+.BottomButton button{
+  margin: 10px 10px 10px 10px;
+  padding:10px 60px;
+  background-color: #FCF6F5;
+  color: #990011;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 5px 5px black;
+  font-size: larger;
+  font-weight: 600;
+  cursor: pointer;
+}
+.BottomButton button:hover{
+  background-color: black;
+  color: #FCF6F5;
+  box-shadow: 5px 5px #CB7B83;
+}
+.Bottom h1{
+  text-align: center;
+  color: white;
+}
+
+.slides {
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+  .BottomButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  .BottomButton button{
+    margin: 10px;
+    padding: 30px;
+  }
+  .carousel-container{
+    align-items: center;
+    display: block; 
+
+  }
+  .CarouselContainer {
+    display: block; 
+  }
+  .slides {
+    gap: 0px;
+  }
+  .cardContainer {
+    height: 77vh;
+  }
+}
+/* HEADER SECTION END*/
+/* CARD/PRODUCT SECTION START  */
+.cardImg{
+  width: 95%;
+  height: 50%;
+  border-radius: 5px;
+  background-size: cover;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.cardContainer{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  width: 250px;
+  height: 70vh;
+  margin-left: 7px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: bisque;
+  box-shadow: 3px 3px 10px black;
+  
+
+}
+
+
+.cardButtonContainer{
+  display: flex;
+  margin: 1px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.CardButton{
+  flex: 1;
+  padding: 10px 10px; 
+  border: none;
+  text-align: center;
+  cursor: pointer;
+  background-color: #990011;
+  color: #FCF6F5;
+}
+.cardbutton{
+object-fit: cover; 
+flex: 1;
+text-align: center;
+cursor: pointer;
+background-color: #990011;
+color: #FCF6F5;
+}
+.cardButton button:hover{
+  background-color: #FCF6F5;
+  color: #990011;
+}
+/*Card buttons End*/
+.addedToCart {
+  background-color: green;
+  color: white;
+}
+.CardInfo{
+  margin: 15px;
+  margin-bottom:1px;
+  text-align: center;
+}
+@media screen and (max-width: 1200px) {
+  .cardContainer {
+    height: 75vh;
+    width: 35vh;
+    margin-left: 105px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .cardContainer {
+    height: 60vh;
+    width: 30vh;
+    margin-left: 105px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .cardContainer {
+    margin-left: 80px;
+    height: 60vh;
+  }
+}
+/* CARD/PRODUCT SECTION END */
+/* HORROR SECTION START */
+.HorrorContainer {
+  background-image: url("./Components/assets/HorrorBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: black;
+}
+.HorrorContainer h1{
+  text-align: center;
+  font-size: 2.5rem; 
+  font-weight: 700;
+  font-family: 'Creepster', cursive;
+  width: 80%; 
+  margin: 10px auto; 
+}
+@media only screen and (max-width: 768px) {
+  .grid{
+    width: 82%;
+
+  }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+  .cardContainer {
+    width: 30%; 
+  }
+}
+/* HORROR SECTION END */
+/* ROMANCE SECTION START */
+.RomanceContainer{
+  background-image: url("./Components/assets/RomanceBackground.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.RomanceTitle h1 {
+  font-family: 'Parisienne', cursive;
+  color: #FCF6F5;
+  margin: 0;
+}
+.text{
+  padding-left: 5em;
+}
+/* ROMANCE SECTION END */
+/* SCIENCEFICTION SECTION START */
+.ScienceFictionContainer{
+  background-image: url("./Components/assets/ScienceFictionBackground.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.HorrorButton{
+  font-family: 'Creepster', cursive;
+}
+.AdventureButton{
+  font-family: 'IM Fell English', serif;
+}
+.ToTheTopButton{
+  font-family: 'Orbitron', sans-serif;
+}
+.ScienceFictionTitle{
+  font-family: 'Orbitron', sans-serif;
+  color: #FCF6F5;
+  padding-top: 10px;
+}
+.ScienceFictionGrid{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: center;
+text-align:center;
+
+}
+/* SCIENCEFICTION SECTION END */
+/* ADVENTURE SECTION START */
+.adventureContainer{
+  background-image: url("./Components/assets/AdventureBackground.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+}
+.adventureContainer h1{
+  font-family: 'IM Fell English', serif;
+color: #FCF6F5;
+}
+/* ADVENTURE SECTION END */
+/* NON-FICTION SECTION START */
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+
+
+.NonFictionContainer {
+    background: linear-gradient(to bottom, #FCF6F5, #990011);
+}
+.divide {
+    background-color: #990011;
+    width: 100%;
+  }
+
+  .MemoirsLink{
+    font-family: 'Shadows Into Light', cursive;
+  }
+  .HistoryLink{
+    font-family: "Tangerine", cursive;
+    font-weight: 700;
+    font-size: 1.5em;
+  }
+  .TrueCrimeLink{
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .PhilsophyLink{
+    font-family: "Explora", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 2em;
+  }
+ .NonFictionContainer h1{
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 700;
+  width: 80%;
+  margin: 0 auto;
+ }
+/* NON-FICTION SECTION END */
+/* MEMIORS SECTION START */
+@import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap");
+
+#Memoirs h1 {
+  font-family: "Shadows Into Light", cursive;
+  font-weight: 600;
+  font-size: 2em;
+  display: flex;
+  justify-content: center;
+}
+
+#Memoirs {
+  background-image: url("./Components/assets/MemoirsBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 0;
+  margin: 0;
+}
+/* MEMIORS SECTION END */
+/* HISTORY SECTION START */
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&display=swap');
+
+
+.History{
+    background-image: url("./Components/assets/HistoryBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  }
+#History h1{
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    font-size: 3.5em;
+    color:white;
+}
+.HistoryGrid{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align:center;
+}
+/* TRUECRIME SECTION START */
+
+#TrueCrime{
+  background-image: url("./Components/assets/TrueCrimeBackground.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+
+
+#TrueCrime h1{
+  font-family: "Wellfleet", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+/* TRUECRIME SECTION END */
+/* PHILOSOPHY SECTION START */
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+
+#Philosophy{
+    background-image: url("./Components/assets/PhilosophyBackground.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+.PhilososphyContainer h1{
+    font-family: "Explora", serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 3em;
+}
+/* PHILOSOPHY SECTION END */
+/*  BESTSELLERS SECTION START*/
+#Classic {
+  background-image: url("./Components/assets/ClassicBackground.avif");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  margin: 0 auto;
+}
+#Classic h1 {
+  text-align: center;
+  color: antiquewhite;
+  margin: 0 auto;
+}
+
+/* BESTSELLERS SECTION END */

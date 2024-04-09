@@ -1,4 +1,4 @@
-import "./Romance.css";
+
 import React from "react";
 import { categoryRomance} from "./Products";
 import { Product } from "./Product";

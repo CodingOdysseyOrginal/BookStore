@@ -1,4 +1,3 @@
-import "./ScienceFiction.css";
 import React from "react";
 import { categoryScience} from "./Products";
 import { Product } from "./Product";

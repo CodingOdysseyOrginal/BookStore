@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-import "./Header.css";
-import "./Card.css";
 import { Link } from 'react-router-dom';
 
 function Card(props) {

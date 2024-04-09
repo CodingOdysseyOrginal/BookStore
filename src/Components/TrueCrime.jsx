@@ -1,4 +1,3 @@
-import './TrueCrime.css'
 import React from "react";
 import { categoryHistory, categoryTrueCrime} from "./Products";
 import { Product } from "./Product";

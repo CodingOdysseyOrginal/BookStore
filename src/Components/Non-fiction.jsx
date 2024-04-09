@@ -1,5 +1,4 @@
 import React, { useState, useEffect, useContext } from "react";
-import "./Non-fiction.css";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Link as ScrollLink } from "react-scroll";

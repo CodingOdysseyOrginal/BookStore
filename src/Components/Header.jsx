@@ -4,7 +4,6 @@ import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { categoryHeader2, categoryHeader1 } from "./Products";
 import { Product } from "./Product";
 import React from "react";
-import "./Header.css";
 import Footer from "./Footer";
 
 export default () => {

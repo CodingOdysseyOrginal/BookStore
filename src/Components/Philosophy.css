@@ -14,10 +14,3 @@
     font-style: normal;
     font-size: 3em;
 }
-.PhilososphyGrid{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    text-align:center;
-}

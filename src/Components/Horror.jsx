@@ -1,4 +1,4 @@
-import "./Horror.css";
+
 import { categoryHorror } from "./Products";
 import { Product } from "./Product";
 import '@fontsource/creepster';

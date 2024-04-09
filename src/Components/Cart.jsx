@@ -29,7 +29,7 @@ const navigate = useNavigate();
       {totalAmount > 0 ? 
         <div className="Checkout">
           <p>Subtotal: £{totalAmount}</p>
-          <button onClick={() => navigate("/")}> Continue Shopping</button>
+          <button onClick={() => navigate("/Bookstore")}> Continue Shopping</button>
           <button> Checkout</button>
         </div>
          : <h1><b>Your Cart is Empty</b></h1> }

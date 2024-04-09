@@ -1,4 +1,3 @@
-import "./History.css";
 import React from "react";
 import { Product } from "./Product";
 import { categoryHistory } from "./Products";

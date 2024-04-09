@@ -1,5 +1,3 @@
-import "./Adventure.css";
-import Card from "./Cards";
 import React from "react";
 import { categoryAdventure } from "./Products";
 import { Product } from "./Product";

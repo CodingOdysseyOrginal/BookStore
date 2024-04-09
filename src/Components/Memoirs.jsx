@@ -1,5 +1,4 @@
 import React from 'react';
-import './Memoirs.css';
 import { categoryMemoir} from "./Products";
 import { Product } from "./Product";
 
