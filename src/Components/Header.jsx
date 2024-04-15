@@ -3,7 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import { categoryHeader2, categoryHeader1 } from "./Products";
 import { Product } from "./Product";
-import React from "react";
+import React, {useEffect} from "react";
 import Footer from "./Footer";
 
 export default () => {
@@ -35,7 +35,19 @@ export default () => {
     },
   };
   const path = window.location.pathname;
+  const scrollToTop = () => {
+    window.scrollTo(0, 0)
+  }
+
+  useEffect(() => {
+    const timerId = setTimeout(() => {
+      scrollToTop()
+    }, 10)
+
+    return () => clearTimeout(timerId)
+  }, [])
   return (
+    
     <section className="HeaderContainer">
       <div className="TitleHeader">
         <h1>
@@ -95,10 +107,10 @@ export default () => {
       <div className="Bottom">
         <h1>Discover our extensive range of genre collections.</h1>
         <div className="BottomButton">
-          <Link to="/NonFiction">
+          <Link onClick={scrollToTop} to="/NonFiction">
             <button>Non-Fiction</button>
           </Link>
-          <Link to="/GiftCards">
+          <Link onClick={scrollToTop} to="/GiftCards">
             <button>Gift Cards</button>
           </Link>
         </div>

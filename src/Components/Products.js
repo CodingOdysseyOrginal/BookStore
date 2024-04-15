@@ -1495,3 +1495,5 @@ export const categoryTrueCrime = PRODUCTS.filter(product => product.category ===
 export const categoryPhilosophy = PRODUCTS.filter(product => product.category === "Philosophy");
 export const categoryClassic = PRODUCTS.filter(product => product.category === "Classic");
 export const categoryBestseller = PRODUCTS.filter(product => product.category === "Bestseller");
+
+
