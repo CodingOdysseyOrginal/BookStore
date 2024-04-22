@@ -90,7 +90,7 @@ export default () => {
           responsive={responsive}
           autoPlay={true}
           autoPlaySpeed={3000}
-          infinite
+          infinite = {true}
           sliderClass="slides"
           containerClass="carousel-container"
           slidesToSlide={1}
