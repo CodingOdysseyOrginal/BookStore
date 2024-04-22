@@ -9,28 +9,28 @@ import Footer from "./Footer";
 export default () => {
   const responsive = {
     desktop: {
-      breakpoint: { max: 3000, min: 1251 },
+      breakpoint: { max: 3000, min: 1080 },
       items: 5,
       // slidesToSlide: 3,
     },
     desktop2: {
-      breakpoint: { max: 1250, min: 1001 },
+      breakpoint: { max: 1080, min: 851 },
       items: 4,
       // slidesToSlide: 3,
     },
     tablet: {
-      breakpoint: { max: 1000, min: 751 },
+      breakpoint: { max: 850, min: 721 },
       items: 3,
       // slidesToSlide: 2,
     },
     tablet2: {
-      breakpoint: { max: 750, min: 501 },
+      breakpoint: { max: 720, min: 561 },
       items: 2,
       // slidesToSlide: 2,
     },
     mobile: {
-      breakpoint: { max: 500, min: 0 },
-      items: 2, 
+      breakpoint: { max: 560, min: 0 },
+      items: 1, 
       // slidesToSlide: 1,
     },
   };
@@ -63,7 +63,7 @@ export default () => {
           responsive={responsive}
           autoPlay={true}
           autoPlaySpeed={3000}
-          infinite
+          infinite ={true}
           sliderClass="slides"
           containerClass="carousel-container"
           slidesToSlide={1}

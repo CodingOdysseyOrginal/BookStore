@@ -1,37 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
+
 /* HELPFULL TIP IS TO PRESS CTRL + F TO SEARCH FOR THE SECTION YOU NEED. ALL SECTINS ARE "(TOPIC NAME) SECTION START" */
 
 
 
 *{
   box-sizing: border-box;
-}
+}  
 
 body{
   margin: 0;
   padding: 0;
-}
+}  
 :root{
   --cherry-red:#990011;
   --off-white:#FCF6F5;
-}
+}  
 /* Card layout */
  .grid{
-  display: flex;
+  display: flex; 
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   text-align:center;
-}
+}  
 /* HEADER SECTION START*/
 
 .HeaderContainer{
   background: linear-gradient(to bottom, #CB7B83, #990011);
-}
+}  
 
 .TitleHeader{
   display: flex;
   justify-content: space-between;  
-}
+}  
 .TitleHeader button{
   margin: 10px 10px 10px 10px;
   padding:10px 60px;
@@ -43,18 +49,19 @@ body{
   font-size: larger;
   font-weight: 600;
   cursor: pointer;
-}
+}  
 .TitleHeader button:hover{
   background-color: black;
   color: #FCF6F5;
   box-shadow: 5px 5px #990011;
-}
+}  
 #LinkList{
   list-style: none;
-}
+}  
 .Carousel{
-text-align: center;
+text-align: center;  
 border-radius: 10px;
+display: flex;
 justify-content: center;
 align-items: center;
 margin: 0 0 10px 10px;
@@ -65,7 +72,7 @@ margin: 0 0 10px 10px;
   flex-direction: row;
   justify-content: space-evenly;
  
-}
+}  
 .BottomButton button{
   margin: 10px 10px 10px 10px;
   padding:10px 60px;
@@ -77,50 +84,24 @@ margin: 0 0 10px 10px;
   font-size: larger;
   font-weight: 600;
   cursor: pointer;
-}
+}  
 .BottomButton button:hover{
   background-color: black;
   color: #FCF6F5;
   box-shadow: 5px 5px #CB7B83;
-}
+}  
 .Bottom h1{
   text-align: center;
   color: white;
-}
+}  
+
 
 .slides {
-  gap: 10px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  display: flex;
-}
+}  
 
-@media only screen and (max-width: 600px) {
-  .BottomButton {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 10px;
-  }
-  .BottomButton button{
-    margin: 10px;
-    padding: 30px;
-  }
-  .carousel-container{
-    align-items: center;
-    display: block; 
-
-  }
-  .CarouselContainer {
-    display: block; 
-  }
-  .slides {
-    gap: 0px;
-  }
-  .cardContainer {
-    height: 77vh;
-  }
-}
 /* HEADER SECTION END*/
 /* CARD/PRODUCT SECTION START  */
 .cardImg{
@@ -130,7 +111,7 @@ margin: 0 0 10px 10px;
   background-size: cover;
   margin-left: 5px;
   margin-top: 5px;
-}
+}  
 .cardContainer{
   display: flex;
   flex-direction: column;
@@ -142,9 +123,7 @@ margin: 0 0 10px 10px;
   margin-bottom: 10px;
   background-color: bisque;
   box-shadow: 3px 3px 10px black;
-  
-
-}
+}  
 
 
 .cardButtonContainer{
@@ -152,7 +131,7 @@ margin: 0 0 10px 10px;
   margin: 1px;
   border: 1px solid black;
   cursor: pointer;
-}
+}  
 
 .CardButton{
   flex: 1;
@@ -162,9 +141,9 @@ margin: 0 0 10px 10px;
   cursor: pointer;
   background-color: #990011;
   color: #FCF6F5;
-}
+}  
 .cardbutton{
-object-fit: cover; 
+object-fit: cover;   
 flex: 1;
 text-align: center;
 cursor: pointer;
@@ -174,38 +153,17 @@ color: #FCF6F5;
 .cardButton button:hover{
   background-color: #FCF6F5;
   color: #990011;
-}
+}  
 /*Card buttons End*/
 .addedToCart {
   background-color: green;
   color: white;
-}
+}  
 .CardInfo{
   margin: 15px;
   margin-bottom:1px;
   text-align: center;
-}
-@media screen and (max-width: 1200px) {
-  .cardContainer {
-    height: 75vh;
-    width: 35vh;
-    margin-left: 105px;
-  }
-}
-@media screen and (max-width: 600px) {
-  .cardContainer {
-    height: 60vh;
-    width: 30vh;
-    margin-left: 105px;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .cardContainer {
-    margin-left: 80px;
-    height: 60vh;
-  }
-}
+}  
 /* CARD/PRODUCT SECTION END */
 /* HORROR SECTION START */
 .HorrorContainer {
@@ -214,7 +172,7 @@ color: #FCF6F5;
   background-position: center;
   background-size: cover;
   color: black;
-}
+}  
 .HorrorContainer h1{
   text-align: center;
   font-size: 2.5rem; 
@@ -222,19 +180,7 @@ color: #FCF6F5;
   font-family: 'Creepster', cursive;
   width: 80%; 
   margin: 10px auto; 
-}
-@media only screen and (max-width: 768px) {
-  .grid{
-    width: 82%;
-
-  }
-}
-
-@media only screen and (min-width: 769px) and (max-width: 1024px) {
-  .cardContainer {
-    width: 30%; 
-  }
-}
+}  
 /* HORROR SECTION END */
 /* ROMANCE SECTION START */
 .RomanceContainer{
@@ -242,16 +188,16 @@ color: #FCF6F5;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+}  
 
 .RomanceTitle h1 {
   font-family: 'Parisienne', cursive;
   color: #FCF6F5;
   margin: 0;
-}
+}  
 .text{
   padding-left: 5em;
-}
+}  
 /* ROMANCE SECTION END */
 /* SCIENCEFICTION SECTION START */
 .ScienceFictionContainer{
@@ -259,23 +205,23 @@ color: #FCF6F5;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-}
+}  
 .HorrorButton{
   font-family: 'Creepster', cursive;
-}
+}  
 .AdventureButton{
   font-family: 'IM Fell English', serif;
-}
+}  
 .ToTheTopButton{
   font-family: 'Orbitron', sans-serif;
-}
+}  
 .ScienceFictionTitle{
   font-family: 'Orbitron', sans-serif;
   color: #FCF6F5;
   padding-top: 10px;
-}
+}  
 .ScienceFictionGrid{
-display: flex;
+display: flex;  
 flex-direction: row;
 flex-wrap: wrap;
 justify-content: center;
@@ -286,25 +232,19 @@ text-align:center;
 /* ADVENTURE SECTION START */
 .adventureContainer{
   background-image: url("./Components/assets/AdventureBackground.jpg");
-background-repeat: no-repeat;
-background-position: center;
+  background-repeat: no-repeat;
+background-position: center;  
 background-size: cover;
 }
 .adventureContainer h1{
   font-family: 'IM Fell English', serif;
-color: #FCF6F5;
-}
+  color: #FCF6F5;
+}  
 /* ADVENTURE SECTION END */
 /* NON-FICTION SECTION START */
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital@0;1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
-
 
 .NonFictionContainer {
-    background: linear-gradient(to bottom, #FCF6F5, #990011);
+  background: linear-gradient(to bottom, #FCF6F5, #990011);
 }
 .divide {
     background-color: #990011;
@@ -404,7 +344,7 @@ color: #FCF6F5;
 @import url('https://fonts.googleapis.com/css2?family=Explora&family=Tangerine:wght@700&family=UnifrakturMaguntia&family=Wellfleet&display=swap');
 
 #Philosophy{
-    background-image: url("./Components/assets/PhilosophyBackground.jpg");
+  background-image: url("./Components/assets/PhilosophyBackground.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -433,3 +373,37 @@ color: #FCF6F5;
 }
 
 /* BESTSELLERS SECTION END */
+
+
+/* @media (max-width: 360px){} */
+
+
+@media(max-width: 660px){
+.slides{
+  align-items: center;
+}
+.carousel {
+  margin: 0 0 0 50px ;
+  max-width: 90%; 
+}
+}
+
+
+@media(max-width: 560px){
+  .TitleHeader button{
+    padding: 10px;
+    font-size: 20px;
+  }
+  .BottomButton button{
+    padding: 10px;
+    font-size: 20px;
+}
+.slides{
+  align-items: center;
+}
+.carousel {
+  margin: 0 0 0 50px ;
+  max-width: 90%; 
+}
+}
+/* @media(max-width: 1080px){} */
