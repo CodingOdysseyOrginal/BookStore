@@ -69,7 +69,7 @@ export default () => {
           slidesToSlide={1}
         >
           {categoryHeader1.map((product) => (
-            <div key={product.id}>
+            <div className="eachItem"key={product.id}>
               <Product data={product} />
             </div>
           ))}
@@ -80,9 +80,9 @@ export default () => {
         <h1>
           <i>Our Best Fiction Books...</i>
         </h1>
-        <CustomLink to="/fiction">
+        <Link onClick={scrollToTop} to="/fiction">
           <button>See More...</button>
-        </CustomLink>
+        </Link>
       </div>
       <div className="CarouselContainer">
       <Carousel
@@ -96,7 +96,7 @@ export default () => {
           slidesToSlide={1}
         >
           {categoryHeader2.map((product) => (
-            <div key={product.id}>
+            <div className="eachItem" key={product.id}>
               <Product data={product} />
             </div>
           ))}

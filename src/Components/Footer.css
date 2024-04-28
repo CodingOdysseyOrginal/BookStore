@@ -1,6 +1,6 @@
 footer{
     background-color: antiquewhite;
-    padding: 60px;
+    padding: 20px;
     border-radius: 100px 100px 0 0;
   }
   .footerSection{
@@ -39,11 +39,15 @@ footer{
     display: flex;
     flex-direction: row;
   }
-  }
+}
 @media only screen and (max-width: 700px) {
   .footerSection{
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.middle{
+  margin-right: 60px;
 }
 
 }

@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react';
+import React, { useContext, useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { ShopContext } from './ShopContext';
 
@@ -11,6 +11,18 @@ export const Product = ({ data }) => {
         addToCart(id);
         setAddedToCart(true);
     };
+
+    const path = window.location.pathname;
+    const scrollToTop = () => {
+      window.scrollTo(0, 0)
+    }
+  
+    useEffect(() => {
+      const timerId = setTimeout(() => {
+        scrollToTop()
+      }, 10)
+      return () => clearTimeout(timerId)
+    }, [])
 
     const cartItemAmount = cartItems[id];
 
@@ -27,7 +39,7 @@ export const Product = ({ data }) => {
                 </button>
             </div>
             <div className="cardButtonContainer">
-                <Link className="cardbutton" to={`/about/${id}`}>
+                <Link className="cardbutton" onClick={scrollToTop} to={`/about/${id}`}>
                     <button className="CardButton">About</button>
                 </Link>
             </div>

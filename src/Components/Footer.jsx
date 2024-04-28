@@ -17,7 +17,7 @@ export default function Footer(){
           <p>Telephone: 0123 456 789</p>
           <p>Email: BookLandFake@hotmail.com</p>
         </div>
-        <div>
+        <div className='middle'>
           <h2><FontAwesomeIcon icon={faMapMarkerAlt} /> <i>Head Office</i></h2>
           <p>Head Office: 21 Jump Street</p>
           <p>Post Code: B88 619</p>
