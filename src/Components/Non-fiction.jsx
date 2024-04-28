@@ -96,11 +96,16 @@ const NonFiction = () => {
 
       <hr />
       <Memoirs />
-      <div className="divide"></div>
+      <div className="divide">
+        <h1 className="HistoryText"> Where Every Book Tells a Story!</h1>
+      </div>
       <History />
-      <div className="divide"></div>
+      <div className="divide">
+        {" "}
+        <h1 className="TrueCrimeText">Whodunit Wonders: True Crime Thrillers</h1>
+      </div>
       <TrueCrime />
-      <div className="divide"></div>
+      <div className="divide"> <h1 className="FaithText">Faith & Philosophy: Soulful Musings</h1></div>
       <Philosophy />
       <div className="divide"></div>
 

@@ -236,10 +236,11 @@ text-align:center;
 background-position: center;  
 background-size: cover;
 }
-.adventureContainer h1{
+.AdventureText{
   font-family: 'IM Fell English', serif;
   color: #FCF6F5;
-}  
+
+}
 /* ADVENTURE SECTION END */
 /* NON-FICTION SECTION START */
 
@@ -249,15 +250,30 @@ background-size: cover;
 .divide {
     background-color: #990011;
     width: 100%;
+    height: 10vh;
+    justify-content: center;
   }
 
   .MemoirsLink{
     font-family: 'Shadows Into Light', cursive;
   }
+  .HistoryText{
+    font-family: "Tangerine", cursive;
+    font-weight: 900;
+    font-size: 3.5em;
+    color:white;
+    align-items: center;
+    padding-top: 20px;
+  }
   .HistoryLink{
     font-family: "Tangerine", cursive;
     font-weight: 700;
     font-size: 1.5em;
+  }
+  .TrueCrimeText{
+    font-family: "Wellfleet", monospace;
+    font-weight: 400;
+    font-style: normal;
   }
   .TrueCrimeLink{
     font-family: "Wellfleet", monospace;
@@ -320,6 +336,7 @@ background-size: cover;
     flex-wrap: wrap;
     justify-content: center;
     text-align:center;
+    
 }
 /* TRUECRIME SECTION START */
 
@@ -350,12 +367,12 @@ background-size: cover;
     background-size: cover;
 }
 
-
-.PhilososphyContainer h1{
-    font-family: "Explora", serif;
-    font-weight: 600;
-    font-style: normal;
-    font-size: 3em;
+.FaithText{
+  font-family: "Explora", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 3em;
+    
 }
 /* PHILOSOPHY SECTION END */
 /*  BESTSELLERS SECTION START*/

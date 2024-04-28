@@ -7,11 +7,10 @@ import Footer from "./Footer.jsx";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 import { Link as ScrollLink } from "react-scroll";
-import { Link, useMatch, useResolvedPath } from 'react-router-dom';
+import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import Adventure from "./Adventure.jsx";
 import ShoppingCartImage from "./assets/ShoppingCart.svg";
 import { ShopContext } from "./ShopContext";
-
 
 const Fiction = () => {
   const { cartItems } = useContext(ShopContext);
@@ -72,10 +71,8 @@ const Fiction = () => {
     <section className="FictionContainer">
       {/* SECONDARY NAVBAR */}
       <nav className={`SecondaryNavbar ${isSticky ? "sticky" : ""}`}>
-        <div className="MenuIcon" onClick={toggleMenu}>
-          
-        </div>
-        <ul className={`menu ${showMenu ? 'active' : ''}`}>
+        <div className="MenuIcon" onClick={toggleMenu}></div>
+        <ul className={`menu ${showMenu ? "active" : ""}`}>
           <li className="HorrorLink">
             <CustomLink to="Horror">Horror</CustomLink>
           </li>
@@ -112,11 +109,22 @@ const Fiction = () => {
 
       <hr />
       <Horror />
-      <div className="divide"></div>
+      <div className="divide">
+        <div className="RomanceTitle">
+          <h1 className="text"> Unraveling the Pages of Romance</h1>
+        </div>
+      </div>
       <Romance />
-      <div className="divide"></div>
+      <div className="divide">
+        {" "}
+        <h1 className="ScienceFictionTitle">
+          Sci-Fi Spectacles at Your Fingertips
+        </h1>
+      </div>
       <ScienceFiction />
-      <div className="divide"></div>
+      <div className="divide"> 
+        <h1 className="AdventureText">Adventures Await Between the Pages</h1>
+      </div>
       <Adventure />
       <div className="divide"></div>
       <Footer />

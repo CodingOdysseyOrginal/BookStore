@@ -7,7 +7,6 @@ export default function Philosophy(){
     return(
         <div id="Philosophy"
         className='PhilososphyContainer'>
-            <h1>Faith & Philosophy: Soulful Musings</h1>
             <div className="grid">
         {categoryPhilosophy.map((product) => (
           <Product data ={product}/>
